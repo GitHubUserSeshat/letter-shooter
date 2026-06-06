@@ -304,7 +304,7 @@ if (this.index >= this.levelOrder.length) {
         );
 
         asteroid.setAngularVelocity(
-            Phaser.Math.FloatBetween(-12, 12)
+            Phaser.Math.FloatBetween(-6, 6)
         );
 
         asteroid.setBounce(0);
