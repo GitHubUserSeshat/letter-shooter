@@ -106,7 +106,7 @@ class Level2 extends Phaser.Scene {
     generateRounds(count) {
 
         const letters = this.getLetterPool()
-            .filter(l ==> l !== "z");
+            .filter(l => l !== "z");
         const rounds = [];
 
         for (let i = 0; i < count; i++) {
