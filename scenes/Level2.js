@@ -341,7 +341,7 @@ class Level2 extends Phaser.Scene {
         );
 
         asteroid.setAngularVelocity(
-            Phaser.Math.FloatBetween(-12, 12)
+            Phaser.Math.FloatBetween(-2, 2)
         );
 
         asteroid.setBounce(0);
